@@ -1,0 +1,25 @@
+services:
+  level1:
+    image: l4sttr4in/file-upload-level1:latest
+    ports:
+      - "12001:80"
+  level2:
+    image: l4sttr4in/file-upload-level2:latest
+    ports:
+      - "12002:80"
+  level3:
+    image: l4sttr4in/file-upload-level3:latest
+    ports:
+      - "12003:80"
+  level4:
+    image: l4sttr4in/file-upload-level4:latest
+    ports:
+      - "12004:80"
+  level5:
+    image: l4sttr4in/file-upload-level5:latest
+    ports:
+      - "12005:80"
+  level6:
+    image: l4sttr4in/file-upload-level6:latest
+    ports:
+      - "12006:80"
